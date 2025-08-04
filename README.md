@@ -117,3 +117,67 @@ Before you submit your solution, you need to save your progress with git.
   * Click on + Create Submission. Connect your repository for this lab.
   * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvas)
 
+# Python OOP Lab – Bookstore
+
+This project demonstrates basic object-oriented programming in Python using two classes: `Book` and `Coffee`. The goal was to practice using attributes, methods, properties, and Python data validation in class design.
+
+---
+
+## 📚 Book Class
+
+- **Attributes:**
+  - `title` (string)
+  - `page_count` (integer)
+
+- **Method:**
+  - `turn_page()` – prints a message when the page is turned
+
+---
+
+## ☕ Coffee Class
+
+- **Attributes:**
+  - `size` (must be "Small", "Medium", or "Large")
+  - `price` (float or int)
+
+- **Method:**
+  - `tip()` – increases the price by 1 and prints a message
+
+---
+
+## 🧪 Purpose
+
+The lab reinforces:
+
+- Use of `@property` and setters to validate data
+- Encapsulation of class data
+- Basic CLI testing with IPython and `ipdb`
+- Following clean Git workflows and documenting changes
+
+---
+
+## 🖼️ Screenshots
+
+### ✅ Book class output
+
+![Book class screenshot](./screenshots/Screenshot%202025-08-04%20003326.png)
+
+### ✅ Coffee class output
+
+![Coffee class screenshot](./screenshots/Screenshot%202025-08-04%20003513.png)
+
+---
+
+## 💡 How to Run
+
+1. Clone this repo  
+2. Run `python lib/book.py` or `python lib/coffee.py`  
+3. Use `ipdb.set_trace()` to inspect and test behavior
+
+---
+
+## ✍️ Author
+
+Created by Jasec7 during Flatiron Phase 3
+
+---
